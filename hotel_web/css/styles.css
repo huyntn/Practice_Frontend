@@ -1,0 +1,408 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    background-color: #333;
+    color: aliceblue;
+    font-size: 1.8rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: orange;
+}
+
+.btn-light {
+    background-color: aliceblue;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    background-color: #333;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    overflow: auto;
+}
+
+.navbar h1 {
+    font-size: 3rem;
+    padding: 0 2rem;
+
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    display: block;
+    color: aliceblue;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+}
+
+.navbar li a:hover,
+.navbar a.current {
+    background-color: rgb(124, 126, 126);
+    color: orange;
+}
+
+#showcase {
+    display: flex;
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#showcase h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: aliceblue;
+    padding-bottom: 0.5rem;
+}
+
+#showcase .showcase-content {
+    max-width: 720px;
+}
+
+.text-primary {
+    color: orange;
+}
+
+#showcase p {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    color: aliceblue;
+    padding: 0 1rem 3rem;
+}
+
+#home-info {
+    /* height: 400px; */
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    text-align: center;
+    /* background-color: #333; */
+}
+
+.home-info-img {
+    flex: 1;
+}
+
+#home-info img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-info-content {
+    flex: 1;
+    background-color: #333;
+    padding: 3rem 0;
+    /* max-width: 600px; */
+}
+
+.home-info-content h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    color: aliceblue;
+}
+
+.home-info-content p {
+    font-size: 1.5rem;
+    padding: 0 1rem 2rem;
+    margin-bottom: 2rem;
+    color: aliceblue;
+}
+
+/* #home-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    height: 300px;
+}
+
+#home-info img {
+    width: 100%;
+}
+
+.home-info-content {
+    background-color: #333;
+    padding: 2rem 0;
+}
+
+.home-info-content h2 {
+    font-size: 2.5rem;
+    color: aliceblue;
+
+}
+
+.home-info-content p {
+    font-size: 2em;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    color: aliceblue;
+}
+
+@media (max-width: 820px) {
+    #home-info {
+        grid-template-columns: 1fr;
+    }
+} */
+
+#feature {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-item {
+    padding: 3rem 1rem;
+}
+
+#feature i {
+    font-size: 5rem;
+}
+
+#feature h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+#feature p {
+    font-size: 1.8rem;
+}
+
+.center {
+    background-color: orange;
+}
+
+#footer {
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: #333;
+    color: aliceblue;
+    padding: 3rem 0;
+}
+
+#about-info .container {
+    display: flex;
+    /* background: url(../img/showcase.jpg) no-repeat center center/cover; */
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-top: 5rem;
+    padding: 2rem 2rem;
+}
+
+.container .info-content {
+    flex: 1;
+}
+
+#about-info .container h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+
+}
+
+#about-info .container p {
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+
+}
+
+.container .info-img {
+    flex: 1;
+    max-width: 400px;
+}
+
+.container .info-img img {
+    width: 100%;
+    /* height: 100%; */
+    border-radius: 50%;
+}
+
+#guest-say {
+    width: 100%;
+    height: 500px;
+    background: url(../img/test-bg.jpg) no-repeat center center/cover;
+    text-align: center;
+}
+
+#guest-say .container {
+    padding: 5rem 2rem;
+}
+
+#guest-say .container h1 {
+    font-size: 5rem;
+    color: aliceblue;
+    margin-bottom: 3rem;
+    line-height: 1.2;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.testimonial img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    font-size: 1.6rem;
+    color: aliceblue;
+    margin-left: 2rem;
+    text-align: left;
+}
+
+@media (max-width: 820px) {
+    #home-info {
+        flex-flow: column;
+    }
+
+    #about-info .container {
+        flex-flow: column;
+    }
+}
+
+@media (max-width: 420px) {
+    #feature {
+        grid-template-columns: 1fr;
+    }
+
+    #showcase {
+        height: 400px;
+    }
+
+    #showcase h1 {
+        font-size: 3rem;
+    }
+
+    #showcase p {
+        font-size: 1.5rem;
+    }
+
+}
+
+#form-submit {
+    padding: 2rem;
+}
+
+#form-submit h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+#form-submit p {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+label {
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+input:not(.btn),
+textarea {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+input.btn {
+    margin-bottom: 2rem;
+}
+
+#contact-list {
+    /* min-height: 200px; */
+    background-color: #444;
+    color: aliceblue;
+}
+
+#contact-list .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 0;
+    flex-wrap: wrap;
+}
+
+#contact-list i {
+    font-size: 5rem;
+    padding: 2rem;
+}
+
+#contact-list h2 {
+    font-size: medium;
+}
+
+#contact-list p {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.list-item {
+    min-width: 200px
+}

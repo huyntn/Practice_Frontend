@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(/survey_form/simon-abrams-k_T9Zj3SE8k-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+}
+
+/* body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: #262646;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+#title,
+#description {
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+}
+
+#title {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+}
+
+#description {
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+#survey-form {
+    background-color: #262646;
+    opacity: 0.9;
+    width: 80vw;
+    max-width: 720px;
+    min-width: 300px;
+    height: 100%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea,
+select {
+    min-height: 2em;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+input,
+textarea {
+    border: #262646 1px solid;
+    color: #000;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+#submit {
+    display: block;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    height: 2rem;
+    font-size: 1.1em;
+}

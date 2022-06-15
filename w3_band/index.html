@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/style1.css">
+    <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Nav Bar -->
+            <ul id="nav">
+                <li> <a href="#">Home</a> </li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Search button -->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+        </div>
+
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">New York</h2>
+                <p class="text-decription">New York is Lorem ipsum </p>
+            </div>
+        </div>
+
+        <div id="content">
+            <!-- About -->
+            <div id="band" class="content-section">
+                <h2 class="section-heading">THE BAND</h2>
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, dolor
+                    veniam! Iste aut maiores corrupti, quam inventore consectetur et odit suscipit asperiores itaque
+                    nemo, maxime impedit, ab deserunt recusandae. Voluptas!
+                </p>
+                <div class="row members-list">
+                    <div class="col col-third s-col-full mt-32 text-center">
+                        <p class="member-name">Name</p>
+                        <img src="/w3_band/asset/img/bandmember/member1.jpg" alt="Name" class="member-pic">
+                    </div>
+                    <div class="col col-third s-col-full mt-32 text-center">
+                        <p class="member-name">Name</p>
+                        <img src="/w3_band/asset/img/bandmember/member1.jpg" alt="Name" class="member-pic">
+                    </div>
+                    <div class="col col-third s-col-full mt-32 text-center">
+                        <p class="member-name">Name</p>
+                        <img src="/w3_band/asset/img/bandmember/member1.jpg" alt="Name" class="member-pic">
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!-- Tour -->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to book your ticket!</p>
+                    <ul class="ticket-list">
+                        <li>September <span class="soul-out">Soul out</span> </li>
+                        <li>October <span class="soul-out">Soul out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+                    <div class="row place-list">
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="/w3_band/asset/img/tourdates/newyork.jpg" alt="" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-name">NEW YORK</h3>
+                                <p class="dates">Fri 16Nov 2019</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn js-buy-ticket s-full-width">Buy tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="/w3_band/asset/img/tourdates/paris.jpg" alt="" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-name">PARIS</h3>
+                                <p class="dates">Fri 16Nov 2019</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn js-buy-ticket s-full-width">Buy tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="/w3_band/asset/img/tourdates/sanfran.jpg" alt="" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-name">SAN FRANSISCO</h3>
+                                <p class="dates">Fri 16Nov 2019</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn js-buy-ticket s-full-width">Buy tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+            </div>
+
+            <!-- Contact -->
+            <div id="contact" class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">We love music</p>
+
+                <div class="row contact-content">
+                    <div class="col col-half s-col-full mb-16 contact-info">
+                        <p><i class="ti-location-pin"></i>Chicago, US</p>
+                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+                        <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                    </div>
+                    <div class="col col-half s-col-full contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half s-col-full">
+                                    <input type="text" placeholder="Name" required class="form-control">
+                                </div>
+                                <div class="col col-half s-col-full s-mt-8">
+                                    <input type="email" placeholder="Email" required class="form-control">
+                                </div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" placeholder="Massage" required class="form-control">
+                                </div>
+                            </div>
+                            <input type="submit" value="SEND" class="btn mt-16 pull-right s-full-width">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <img src="/w3_band/asset/img/map/map.jpg" alt="">
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="social-list">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+                <a href=""><i class="ti-twitter"></i></a>
+                <a href=""><i class="ti-vimeo"></i></a>
+            </div>
+            <p class="copywrite">Powered by <a href="">w3.css</a></p>
+        </div>
+
+    </div>
+
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="close-btn js-close-btn">
+                <i class="ti-close"></i>
+            </div>
+
+            <header class="modal-header">
+                <i class="ti-bag"></i>
+                Ticket
+            </header>
+
+            <div class="modal-body">
+                <label for="ticket-quantity" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Tickets, $15 per person
+                </label>
+                <input id=ticket-quantity type="text" class="modal-input" placeholder="How many?">
+                <label for="email" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send to
+                </label>
+                <input id=email type="text" class="modal-input" placeholder="How many?">
+                <button class="modal-pay-btn">
+                    PAY <i class="ti-check"></i>
+                </button>
+
+            </div>
+
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href="">help!</a></p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket')
+        const modal = document.querySelector('.js-modal')
+        const modalClose = document.querySelector('.js-close-btn')
+        const modalContainer = document.querySelector('.js-modal-container')
+        function showBuytickets() {
+            modal.classList.add('open')
+        }
+
+
+        function hideBuytickets() {
+            modal.classList.remove('open')
+        }
+
+
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showBuytickets)
+        }
+
+        modalClose.addEventListener('click', hideBuytickets)
+
+        modal.addEventListener('click', hideBuytickets)
+
+        modalContainer.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
+    </script>
+
+    <script>
+        var header = document.getElementById('header')
+        var mobileMenu = document.getElementById('mobile-menu')
+        var headerHeight = header.clientHeight
+
+        // Dong mo menu - Mobile
+        mobileMenu.onclick = function () {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = 'auto'
+            } else {
+                header.style.height = null
+            }
+
+        }
+        //Tu dong dong
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]')
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i]
+            menuItem.onclick = function () {
+                var isParentMenu = this.nextSibling && menuItem.nextSibling.classList.contains('subnav')
+                if (!isParentMenu) {
+                    header.style.height = null
+                }
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>
